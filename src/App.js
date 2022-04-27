@@ -38,7 +38,7 @@ function App(){
         </h1>
       </div>
       <div className = "count">
-        <h1>{count}</h1> 
+        <h1>{300-count}</h1> 
       </div>
       </body>
     </div>
