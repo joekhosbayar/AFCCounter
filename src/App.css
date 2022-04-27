@@ -5,21 +5,29 @@
   min-height: 100%;
   min-width: 100%;
 
-  position: fixed;
+  position: relative;
   top:0;
   left:0;
 }
 .header{
-
+  font-size: 30px;
 }
 .count{
   font-family: 'Times New Roman', Times, serif;
+  font-size: 42px;
+  display:inline;
+  border-style:double;
+  border-width: 2px;
+  border-color:rgb(229,114,0);
 }
 .logo{
-  position: fixed;
+  position: relative;
   top:10px;
   left:10px;
   padding-top: 10px;
   padding-left: 10px;
   
+}
+body{
+  background-color: rgb(35,45,75);
 }

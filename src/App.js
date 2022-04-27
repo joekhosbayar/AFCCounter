@@ -28,6 +28,7 @@ function App(){
 
   return (
     <div className = "App">
+      <body>
       <div className = "logo">
         <img src = " https://recsports.virginia.edu/system/files/IMRec_PowerLogo_Horizontal_OrangeWhite_RGB-01.png"></img>
       </div>
@@ -39,6 +40,7 @@ function App(){
       <div className = "count">
         <h1>{count}</h1> 
       </div>
+      </body>
     </div>
     
   )
